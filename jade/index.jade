@@ -1,0 +1,219 @@
+include header.jade
+body
+  .container-fluid
+    .menu.row.text-center
+      .col-md-12.border-bottom.back-grey
+        .container
+          .row
+            .col-md-6
+              img(src="images/logo.png", alt="alt")
+            .col-md-6
+              .row.text-center
+                .col-md-2.col-lg-2.pd-t-30.block-1
+                  a(href="#first-part") INICIO
+                .col-md-2.col-lg-2.pd-t-30.block-2
+                  a(href="#second-part") SERVICIOS
+                .col-md-2.col-lg-2.pd-t-30.block-3
+                  a(href="#three-part") EQUIPO
+                .col-md-2.col-lg-3.pd-t-30.block-4
+                  a(href="#four-part") PORTAFOLIO
+                .col-md-2.col-lg-3.pd-t-30.block-5
+                  a(href="#five-part") CONTACTOS
+  .container.text-center#first-part
+    #carousel-example-generic.carousel.slide(data-ride='carousel')
+      ol.carousel-indicators
+        li.active(data-target='#carousel-example-generic', data-slide-to='0')
+        li(data-target='#carousel-example-generic', data-slide-to='1')
+        li(data-target='#carousel-example-generic', data-slide-to='2')
+      .carousel-inner(role='listbox')
+        .item.active
+          img(src='images/slider.jpg', alt='slider')     
+          .carousel-caption
+        .item
+          img(src='images/slider-1.jpg', alt='slider1')
+          .carousel-caption
+        .item
+          img(src='images/slider-2.jpg', alt='slider2')
+          .carousel-caption
+        .item
+          img(src='images/slider-3.jpg', alt='slider3')
+          .carousel-caption
+        .item
+          img(src='images/slider-4.jpg', alt='slider4')
+          .carousel-caption
+        .item
+          img(src='images/slider-5.jpg', alt='slider5')
+          .carousel-caption
+      a.left.carousel-control.pd-t-s(href='#carousel-example-generic', role='button', data-slide='prev')
+        span.ion-chevron-left(aria-hidden='true')
+        span.sr-only Previous
+      a.right.carousel-control.pd-t-s(href='#carousel-example-generic', role='button', data-slide='next')
+        span.ion-chevron-right(aria-hidden='true')
+        span.sr-only Next
+  .container.first-part
+    .row.text-center
+      .col-md-4.first-part-box
+        h1 MISIÓN  
+          span.ion-clipboard
+        p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ducimus quibusdam sequi illo quo ad incidunt, est vero. Quam adipisci, pariatur? Voluptatibus accusamus non earum voluptates. Culpa similique natus dolor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem delectus libero dicta voluptate explicabo ex nesciunt non provident! A mollitia iure in perspiciatis cupiditate illum consectetur distinctio placeat aperiam, sapiente.
+      .col-md-4.first-part-box
+        h1 VISIÓN  
+          span.ion-eye
+        p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, culpa fugiat in animi laborum. Ea error sed, animi, sint aliquam aliquid fuga. Vitae facilis odit ipsam, sed corrupti quia aliquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere veniam voluptatem corporis dolores saepe molestias debitis doloribus delectus voluptates doloremque consectetur dolor sequi, voluptate in dignissimos necessitatibus cum eveniet hic.
+      .col-md-4
+        h1 METAS  
+         span.glyphicon.glyphicon-signal
+        p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam officia officiis, illum numquam ipsum, inventore eligendi error quisquam repellendus aperiam quos quasi labore laboriosam tempore dicta reiciendis voluptatum esse ratione! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quae repellendus non facilis sed iusto, necessitatibus.
+
+  section#second-part
+    .container.text-center
+      .second-part
+        .row
+          .col-md-4
+          .col-md-4.tp-box-1
+            h1 SERVICIOS
+          .col-md-4
+        .row.text-center
+          .col-md-3
+            figure.snip1566
+              img(src="images/port-1.png", alt='port-1')
+              figcaption
+                i.ion-android-desktop
+              a(href='#')
+            h4 DESARROLLO WEB
+            p.sp-text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae explicabo perferendis, consectetur dolorem sint qui alias deleniti cum. Culpa mollitia necessitatibus nisi in illum, eveniet autem quis facere, nostrum omnis!
+          .col-md-3
+            figure.snip1566
+              img(src="images/port-2.jpg", alt='port-2')
+              figcaption
+                i.ion-android-phone-portrait
+              a(href='#')
+            h4 WEB RESPONSIVE
+            p.sp-text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto magni dignissimos saepe veniam ipsam doloribus eum nemo, voluptas cupiditate eius voluptatibus laudantium ullam ad suscipit, blanditiis tempora pariatur voluptate non.
+          .col-md-3
+            figure.snip1566
+              img(src="images/port-3.jpg", alt='port-3')
+              figcaption
+                i.ion-ios-search-strong
+              a(href='#')
+            h4 SEO
+            p.sp-text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis et porro expedita culpa beatae nam quis hic rem qui, cumque libero consequuntur, unde aut amet similique facere eum necessitatibus deleniti!
+          .col-md-3
+            figure.snip1566
+              img(src="images/port-4.jpg", alt='port-4')
+              figcaption
+                i.ion-android-stopwatch
+              a(href='#')
+            h4 MARKETING DIGITAL
+            p.sp-text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt id mollitia necessitatibus modi, nemo natus dignissimos dolorem, corrupti ea temporibus amet, cum in. Nostrum officia officiis, ab consequatur accusamus suscipit.
+  section#three-part.text-center
+    .container
+      .three-part
+        .row
+          .col-md-4
+          .col-md-4.tp-box-2
+            h1 EQUIPO
+          .col-md-4
+        .row
+          .col-md-2
+          .col-md-4.box-equipo#uno
+            img(src="images/trabajador2.jpg" , alt="equip1")
+            h3 ASTRID TINTAYA
+            hr
+            p.sp-text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quis tempore at omnis eaque assumenda labore, natus ab illo autem, quisquam facilis ipsam iusto voluptatibus in nihil exercitationem inventore animi? 
+            .row
+              .col-md-3
+                a(href="#")
+                  span.ion-social-facebook
+              .col-md-3
+                a(href="#")
+                  span.ion-android-mail
+              .col-md-3
+                a(href="#")
+                  span.ion-social-github
+              .col-md-3
+                a(href="#")
+                  span.ion-social-linkedin
+          .col-md-1
+          .col-md-4.box-equipo.text-center#dos
+            img(src="images/trabajador1.jpg" , alt="equip2")
+            h3 ANGEL TINTAYA
+            hr
+            p.sp-text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quis tempore at omnis eaque assumenda labore, natus ab illo autem, quisquam facilis ipsam iusto voluptatibus in nihil exercitationem inventore animi?
+            .row
+              .col-md-3
+                a(href="#")
+                  span.ion-social-facebook
+              .col-md-3
+                a(href="#")
+                  span.ion-android-mail
+              .col-md-3
+                a(href="#")
+                  span.ion-social-github
+              .col-md-3
+                a(href="#")
+                  span.ion-social-linkedin
+          .col-md-1     
+  section#four-part.text-center
+    .container
+      .four-part
+        .row
+          .col-md-4
+          .col-md-4.tp-box-3
+            h1 PORTAFOLIO
+          .col-md-4
+        .row.portafolio
+          .col-md-4
+            img.img-responsive(src="images/serv-1.png", alt="serv1")
+            .text
+              p.sp-text TF-CORP
+            h2 DESARROLLO WEB
+            p.sp-text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati distinctio dicta repudiandae nesciunt id dolorem minima possimus culpa earum commodi sapiente recusandae aliquid iste, ratione inventore debitis nihil, quis nemo!
+          .col-md-4
+            img.img-responsive(src="images/serv-1.png", alt="serv2")
+            .text
+              p.sp-text TF-CORP
+            h2 DESARROLLO WEB
+            p.sp-text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati distinctio dicta repudiandae nesciunt id dolorem minima possimus culpa earum commodi sapiente recusandae aliquid iste, ratione inventore debitis nihil, quis nemo!
+          .col-md-4
+            img.img-responsive(src="images/serv-1.png", alt="serv3")
+            .text
+              p.sp-text TF-CORP
+            h2 DESARROLLO WEB
+            p.sp-text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati distinctio dicta repudiandae nesciunt id dolorem minima possimus culpa earum commodi sapiente recusandae aliquid iste, ratione inventore debitis nihil, quis nemo!
+  section#five-part
+   .contacto-back
+      .container
+         .five-part
+            .row
+               .col-md-4
+               .col-md-4.tp-box-4
+                  h1.text-center CONTACTO
+               .col-md-4
+            .row
+               .col-md-6.contac-box
+                  .row
+                     .col-md-6.info-contacto
+                        h1 TF-Corporación
+                        h3 Teléfonos  
+                           span.ion-android-phone-portrait
+                        ul.sp-text
+                           li 921493080
+                           li 966343797
+                        h3 E-mail  
+                           span.ion-android-mail
+                        ul.sp-text
+                           li astridmaciel12@gmail.com
+                           li astridmaciel12@gmail.com
+                     .col-md-6.info-contact
+                        ul.list-unstyled
+                           li
+                              a(href="#")#fb
+                                 span.ion-thumbsup   Facebook-sitio
+                           li
+                              a(href="#")#yt
+                                 span.ion-social-youtube   Youtube-sitio
+               .col-md-6
+                  img(src="images/contac.png", alt="")
+      .container-fluid
+         p.sp-text Astrid Tintaya - TF-Corp©
